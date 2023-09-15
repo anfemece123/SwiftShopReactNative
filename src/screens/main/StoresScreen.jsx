@@ -3,6 +3,9 @@ import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { getAllProducts } from '../../redux/reducers/productsSlice';
 import Geolocation from '@react-native-community/geolocation';
+import MapView, { PROVIDER_GOOGLE } from 'react-native-maps'; // Elimina la importación PROVIDER_GOOGLE si no estás usando Google Maps
+import Map from '../../components/Map';
+
 
 
 const StoresScreen = () => {
@@ -22,12 +25,16 @@ useEffect(() => {
 
  
   return (
-    <View>
-      <Text>StoresScreen</Text>
-    </View>
+    <View style={{flex:1}}>
+      <Map/>
+  
+      
+        </View>
   )
 }
 
 export default StoresScreen
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+  
+ });
