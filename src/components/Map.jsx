@@ -8,7 +8,7 @@ const Map = () => {
      <MapView
       provider={PROVIDER_GOOGLE}
       style={styles.map}
-      showsUserLocation
+      showsUserLocation //* la libreria react-native-maps estaba mal asi que modifique la version a la 21.0.1 desde el node-modules e instale "patch-package" para parchar los cambios de la libreria //*
       region={{
         latitude: 1.220239,
         longitude: -77.280314,
