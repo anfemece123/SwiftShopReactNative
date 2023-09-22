@@ -20,7 +20,7 @@ console.log(permissionAsk)
         dispatch(askLocationPermission());
       }, [dispatch])
 
-      useEffect(() => {
+    useEffect(() => {
   
         AppState.addEventListener('change',state=>{
           if(state === 'active'){
