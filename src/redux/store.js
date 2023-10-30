@@ -8,6 +8,7 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 
 import productsSlice from "./reducers/productsSlice";
 import permissionLocationSlice from "./reducers/permissionLocationSlice";
+import locationSlice from "./reducers/locationSlice";
 /*
   Aca se ubican los estados globales, donde les damos acceso a todos los componentes que esten por debajo del store
   por ejemplo: dentro del reducer se ubicarian los estados de "workers", "works", "popularWorkers", etc ...
@@ -22,7 +23,8 @@ const persistConfig = {
 };
 const rootReducer = combineReducers({
     allProducts: productsSlice,
-    permissionLocation: permissionLocationSlice
+    permissionLocation: permissionLocationSlice,
+    location:locationSlice
 //   auth: auth,
 //   errorAuth: errorAuth,
 //   categories: categories,

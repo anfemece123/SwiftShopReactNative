@@ -38,6 +38,9 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SwiftShop/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-SwiftShop-SwiftShopTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftShop-SwiftShopTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-SwiftShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftShop.debug.xcconfig"; path = "Target Support Files/Pods-SwiftShop/Pods-SwiftShop.debug.xcconfig"; sourceTree = "<group>"; };
+		4160BD2F2ACE421000F28792 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ionicons.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		4160BD302ACE423200F28792 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialIcons.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		4160BD312ACE424500F28792 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-SwiftShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftShop.release.xcconfig"; path = "Target Support Files/Pods-SwiftShop/Pods-SwiftShop.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-SwiftShop-SwiftShopTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftShop-SwiftShopTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftShop-SwiftShopTests/Pods-SwiftShop-SwiftShopTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-SwiftShop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftShop.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,6 +109,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4160BD2E2ACE41DE00F28792 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4160BD312ACE424500F28792 /* FontAwesome.ttf */,
+				4160BD302ACE423200F28792 /* MaterialIcons.ttf */,
+				4160BD2F2ACE421000F28792 /* Ionicons.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +129,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				4160BD2E2ACE41DE00F28792 /* Fonts */,
 				13B07FAE1A68108700A75B9A /* SwiftShop */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* SwiftShopTests */,
