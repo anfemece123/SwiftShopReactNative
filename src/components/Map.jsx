@@ -38,9 +38,9 @@ const Map = () => {
   useEffect(() => {
  
       dispatch(followUserLocation())
-      return () => {
-        dispatch(stopFollowUserLocation(watchId))
-      }
+      // return () => {
+      //   dispatch(stopFollowUserLocation(watchId))
+      // }
     
   }, [userLocation])
   
